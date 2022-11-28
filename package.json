@@ -1,0 +1,22 @@
+{
+  "name": "cypress-api-testing",
+  "version": "1.0.0",
+  "description": "API testing using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaffyRod/Cypress-API-Testing.git"
+  },
+  "author": "Raffy Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaffyRod/Cypress-API-Testing/issues"
+  },
+  "homepage": "https://github.com/RaffyRod/Cypress-API-Testing#readme",
+  "dependencies": {
+    "cypress": "^11.2.0"
+  }
+}
