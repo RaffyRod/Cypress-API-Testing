@@ -1,4 +1,4 @@
-describe('Second update for API', () => {
+describe('Update using PATCH', () => {
   it('update user from API using PATCH', () => {
     cy.request({
       method: 'PATCH',

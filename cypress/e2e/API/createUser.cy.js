@@ -1,5 +1,5 @@
-describe('First Post for API', () => {
-  it('create user using API', () => {
+describe('Create User', () => {
+  it('Create User', () => {
     cy.request({
       method: 'POST',
       url: Cypress.env('baseUrl') + '/api/users',

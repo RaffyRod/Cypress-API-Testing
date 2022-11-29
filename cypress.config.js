@@ -10,9 +10,9 @@ module.exports = defineConfig({
   },reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     reportDir: 'cypress/reports',
-    reportTitle: 'API testing report',
+    reportTitle: 'API Testing Report',
     reportPageTitle: 'API Test Automation Results',
-    reportFilename: 'apiReports',
+    reportFilename: 'API Report',
     embeddedScreenshots: true,
     charts: true,
     inline: true,

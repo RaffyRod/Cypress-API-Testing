@@ -1,4 +1,4 @@
-describe('Second Get for API', () => {
+describe('List Resource/Unknown', () => {
   it('List Resource/Unknown from API', () => {
     cy.request(Cypress.env('baseUrl') + '/api/Unknown')
       .then((response) => {

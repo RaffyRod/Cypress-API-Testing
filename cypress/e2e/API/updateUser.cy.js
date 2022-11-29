@@ -1,4 +1,4 @@
-describe('First update for API', () => {
+describe('Update using PUT', () => {
   it('update user from API using PUT', () => {
     cy.request({
       method: 'PUT',
