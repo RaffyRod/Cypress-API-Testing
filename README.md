@@ -169,7 +169,7 @@ Install dependencies
   npm install
 ```
 
-Start Cpress
+Start Cypress
 
 ### Run using the Cypress GUI
 
