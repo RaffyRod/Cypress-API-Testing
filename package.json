@@ -9,7 +9,7 @@
     "lint": "eslint cypress/e2e",
     "lint-fix": "npm run lint -- --fix",
     "test": "npm run pretest && npx cypress run",
-    "test-windows": "npm run pretest-windows && npx cypress run"
+    "test-windows": "npm run pretest-windows && npx cypress run --browser chrome"
   },
   "repository": {
     "type": "git",
