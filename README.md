@@ -1,7 +1,7 @@
 
 # API testing using Cypress
 
-This project automates different  API responses from https://reqres.in/ using the Cypress framework, gernerating reports and running into github actions as CI.
+This project automates different  API responses from https://reqres.in/ using the Cypress framework, generating reports and running into github actions as CI.
 
 Some of the API request that were automated are listed below:
 ## API Reference
