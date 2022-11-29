@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint cypress/e2e",
     "lint-fix": "npm run lint -- --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "repository": {
     "type": "git",

@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#ignores videos
+*.mp4
