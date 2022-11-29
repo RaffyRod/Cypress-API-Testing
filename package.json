@@ -7,7 +7,8 @@
     "lint": "eslint cypress/e2e",
     "lint-fix": "npm run lint -- --fix",
     "pretest-windows": "rmdir /S /Q cypress\\reports && mkdir cypress\\reports",
-    "test": "npm run pretest-windows && npx cypress run"
+    "pretest" : "rm -rf cypress/reports && mkdir cypress/reports",
+    "test": "npm run pretest && npx cypress run"
   },
   "repository": {
     "type": "git",
