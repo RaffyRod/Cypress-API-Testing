@@ -4,6 +4,8 @@
   "description": "API testing using cypress",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint cypress/e2e",
+    "lint-fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/RaffyRod/Cypress-API-Testing#readme",
   "dependencies": {
     "cypress": "^11.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
   }
 }
