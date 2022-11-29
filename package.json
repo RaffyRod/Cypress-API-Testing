@@ -4,11 +4,12 @@
   "description": "API testing using cypress",
   "main": "index.js",
   "scripts": {
+    "pretest-windows": "rmdir /S /Q cypress\\reports && mkdir cypress\\reports",
+    "pretest": "rm -rf cypress/reports && mkdir cypress/reports",
     "lint": "eslint cypress/e2e",
     "lint-fix": "npm run lint -- --fix",
-    "pretest-windows": "rmdir /S /Q cypress\\reports && mkdir cypress\\reports",
-    "pretest" : "rm -rf cypress/reports && mkdir cypress/reports",
-    "test": "npm run pretest && npx cypress run"
+    "test": "npm run pretest && npx cypress run",
+    "test-windows": "npm run pretest-windows && npx cypress run"
   },
   "repository": {
     "type": "git",
