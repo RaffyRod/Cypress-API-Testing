@@ -4,7 +4,6 @@ describe('List users', () => {
       .then((response) => {
         expect(response.status).to.be.equal(200);
         expect(response.body).not.to.be.null;
-        cy.log('The amount of pages brought by this request is: '+ response.body.page);
       });
   })
 })

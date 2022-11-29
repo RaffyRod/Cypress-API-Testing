@@ -71,7 +71,7 @@ Some of the API request that were automated are listed below:
 | `DELETE` | `api/register` | `204` |
 
 
-#### Register user succesfully
+#### Register user successfully
 
 ```http
   POST /api/register
@@ -83,7 +83,7 @@ Some of the API request that were automated are listed below:
 
 
 
-#### Register user Unsuccesfully
+#### Register user Unsuccessfully
 
 ```http
   POST /api/register
@@ -94,7 +94,7 @@ Some of the API request that were automated are listed below:
 | `POST` | `/api/register` | `"email":"sydney@fife"`|`400` |
 
 
-#### Login user Succesfully
+#### Login user Successfully
 
 ```http
   POST /api/login
@@ -105,7 +105,7 @@ Some of the API request that were automated are listed below:
 | `POST` | `/api/login` | `email: eve.holt@reqres.in, password:cityslicka `|`200` |
 
 
-#### Login user Unsuccesfully
+#### Login user Unsuccessfully
 
 ```http
   POST /api/login
@@ -144,7 +144,7 @@ Some of the API request that were automated are listed below:
 * Clone the repository from Github.
 
 ```bash
-  git clone https://github.com/RaffyRod/Cypress-API-Testing.git  
+  git clone https://github.com/RaffyRod/Cypress-API-Testing.git
 ```
 
 * Install all packages and dependencies for the project.
@@ -191,7 +191,7 @@ Go to the project directory
   cd Cypress-API-Testing
 ```
 
-From the terminal type 
+From the terminal type in
 
 ```bash
   npm run test-windows
@@ -210,12 +210,10 @@ In order to run the project on Linux and Mac OS.
 
 * After running a HTML report will be generated and saved at the  `cypress/reports` folder.
 
-
-
 ## Must Know
 
 
 * For API negative test cases was used `failOnStatusCode: false` , so it can continue and do the assertions.
-* It was implemented the ESlint linter to ensured the code ebst practices and performance.
-
-
+* It was implemented the ESlint linter to ensured the code best practices and performance.
+* It was commented only specific parts of the code, if someone reads teh entire code easily will understand it.
+* In order to locally run the Linter (ESlint) just type in the terminal `npm run lint` or to run and fix `npm run lint-fix`
