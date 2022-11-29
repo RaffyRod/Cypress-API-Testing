@@ -5,7 +5,9 @@
         "it": true,
         "expect": true,
         "describe": true,
-        "beforeEach": true
+        "beforeEach": true,
+        "require": true,
+        "module": true
       },
     "env": {
         "browser": true,

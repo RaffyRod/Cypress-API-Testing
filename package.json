@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint cypress/e2e",
     "lint-fix": "npm run lint -- --fix",
-    "test": "npx cypress run"
+    "pretest-windows": "rmdir /S /Q cypress\\reports && mkdir cypress\\reports",
+    "test": "npm run pretest-windows && npx cypress run"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   },
   "homepage": "https://github.com/RaffyRod/Cypress-API-Testing#readme",
   "dependencies": {
-    "cypress": "^11.2.0"
+    "cypress": "^11.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
   },
   "devDependencies": {
     "eslint": "^8.28.0"
