@@ -217,3 +217,6 @@ In order to run the project on Linux and Mac OS.
 * It was implemented the ESlint linter to ensured the code best practices and performance.
 * It was commented only specific parts of the code, if someone reads teh entire code easily will understand it.
 * In order to locally run the Linter (ESlint) just type in the terminal `npm run lint` or to run and fix `npm run lint-fix`
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raffy-a-rodriguez-400552110/)
