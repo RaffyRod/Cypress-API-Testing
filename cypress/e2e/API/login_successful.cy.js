@@ -13,5 +13,5 @@ describe('Login user successful', () => {
       expect(response.body).to.have.property('token');
       expect(response.body).not.to.be.null;
     });
-  })
+  });
 });

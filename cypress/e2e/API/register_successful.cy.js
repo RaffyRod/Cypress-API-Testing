@@ -13,5 +13,5 @@ describe('Register User', () => {
       expect(response.body).to.have.property('token'); // assertion to validate that response is including the token property
       expect(response.body).not.to.be.null; // assertion to validate that response body is not empty
     });
-  })
+  });
 });

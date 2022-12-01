@@ -5,5 +5,5 @@ describe('List users', () => {
         expect(response.status).to.be.equal(200);
         expect(response.body).not.to.be.null;
       });
-  })
+  });
 })

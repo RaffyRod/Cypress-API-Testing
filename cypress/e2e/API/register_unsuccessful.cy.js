@@ -14,5 +14,5 @@ describe('Register User unsucessful', () => {
       expect(response.body).to.have.property('error');
       expect(response.body).not.to.be.null; // assertion to validate that response body is not empty
     });
-  })
+  });
 });

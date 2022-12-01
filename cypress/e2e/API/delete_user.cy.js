@@ -7,5 +7,5 @@ describe('Delete from API', () => {
       expect(response.status).to.be.equal(204);
       expect(response.body).to.be.equal(''); // assertion to validate that after deleting the body is empty
     });
-  })
+  });
 });

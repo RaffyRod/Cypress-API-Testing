@@ -12,5 +12,5 @@ describe('Create User', () => {
       expect(response.status).to.be.equal(201);
       expect(response.body).to.have.property('createdAt'); // assertion to validate that the createdAt property is include in the body
     });
-  })
+  });
 });

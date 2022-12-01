@@ -26,7 +26,6 @@ Some of the API request that were automated are listed below:
 | :-------- | :------- | :------------------------- |
 | `GET` | `/api/unknown` | `200` |
 
-
 #### Create user registry
 
 ```http
@@ -35,8 +34,7 @@ Some of the API request that were automated are listed below:
 
 |Request type| Endpoints  |Request Body   | Expected Response Code                |
 | :-------- | :------- | :------------------------- |:------------------------- |
-| `POST` | `/api/users` |`name : morpheus, job : leader `| `201` |
-
+| `POST` | `/api/users` |`name : morpheus, job : leader`| `201` |
 
 #### Update user registry
 
@@ -58,8 +56,6 @@ Some of the API request that were automated are listed below:
 | :-------- | :------- | :------------------------- |:------------------------- |
 | `PATCH` | `/api/users/2` |`name: morpheus, job: zion resident`| `200` |
 
-
-
 #### Delete user registry
 
 ```http
@@ -69,7 +65,6 @@ Some of the API request that were automated are listed below:
 |Request type| Endpoints     | Expected Response Code                |
 | :-------- | :------- | :------------------------- |
 | `DELETE` | `api/register` | `204` |
-
 
 #### Register user successfully
 
@@ -81,8 +76,6 @@ Some of the API request that were automated are listed below:
 | :-------- | :------- |:------------------------- |:------------------------- |
 | `POST` | `/api/register` | `email=eve.holt@reqres.in, password=pistol`|`200` |
 
-
-
 #### Register user Unsuccessfully
 
 ```http
@@ -93,7 +86,6 @@ Some of the API request that were automated are listed below:
 | :-------- | :------- |:------------------------- |:------------------------- |
 | `POST` | `/api/register` | `"email":"sydney@fife"`|`400` |
 
-
 #### Login user Successfully
 
 ```http
@@ -102,8 +94,7 @@ Some of the API request that were automated are listed below:
 
 |Request type| Endpoints  |Request Body   | Expected Response Code                |
 | :-------- | :------- |:------------------------- |:------------------------- |
-| `POST` | `/api/login` | `email: eve.holt@reqres.in, password:cityslicka `|`200` |
-
+| `POST` | `/api/login` | `email: eve.holt@reqres.in, password:cityslicka`|`200` |
 
 #### Login user Unsuccessfully
 
@@ -113,11 +104,7 @@ Some of the API request that were automated are listed below:
 
 |Request type| Endpoints  |Request Body   | Expected Response Code                |
 | :-------- | :------- |:------------------------- |:------------------------- |
-| `POST` | `/api/login` | `email: peter@klaven `|`400` |
-
-
-
-
+| `POST` | `/api/login` | `email: peter@klaven`|`400` |
 
 ## Tech Stack
 
@@ -128,18 +115,11 @@ Some of the API request that were automated are listed below:
 * [cypress-mochawesome-reporter.](https://www.npmjs.com/package/cypress-mochawesome-reporter)
 * [ESlint.](https://eslint.org/docs/latest/user-guide/getting-started)
 
-
-
-
 ## Before Installing
 
 * [Nodejs.](https://nodejs.org/en/download/) must be installed in order to run the project.
 
-
-
 ## Installation
-
-
 
 * Clone the repository from Github.
 
@@ -149,13 +129,11 @@ Some of the API request that were automated are listed below:
 
 * Install all packages and dependencies for the project.
 
-
 ```bash
-  npm install  
+  npm install
 ```
 
 ## Run Locally
-
 
 Go to the project directory
 
@@ -207,11 +185,9 @@ or
 
 In order to run the project on Linux and Mac OS.
 
-
 * After running a HTML report will be generated and saved at the  `cypress/reports` folder.
 
 ## Must Know
-
 
 * For API negative test cases was used `failOnStatusCode: false` , so it can continue and do the assertions.
 * It was implemented the ESlint linter to ensured the code best practices and performance.

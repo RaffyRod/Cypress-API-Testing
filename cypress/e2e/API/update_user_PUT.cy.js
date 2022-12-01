@@ -10,5 +10,5 @@ describe('Update using PUT', () => {
       expect(response.status).to.be.equal(200); // assertion to validate that the response includes status code 200
       expect(response.body.job).to.be.equal('zion resident');
     });
-  })
+  });
 });

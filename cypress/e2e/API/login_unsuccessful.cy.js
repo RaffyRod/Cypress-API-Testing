@@ -13,5 +13,5 @@ describe('Login user Unsuccessful', () => {
       expect(response.body).to.have.property('error'); // assertion to validate that response is including the error property when fails
       expect(response.body).not.to.be.null; // assertion to validate that response body is not empty
     });
-  })
+  });
 });

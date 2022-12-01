@@ -12,5 +12,5 @@ describe('Update using PATCH', () => {
       expect(response.status).to.be.equal(200);
       expect(response.body.job).to.be.equal('zion resident'); // assertion to validate that the response body includes job = zion resident
     });
-  })
+  });
 });
